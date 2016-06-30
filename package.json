@@ -1,0 +1,54 @@
+{
+
+  "description": "Allows Users to create ssh, and ftp info in plugin and define a backup schema",
+  "homepage": "https://github.com/sturple/nodejs-sitebackups",
+  "license": {
+    "type": "MIT"
+  },
+  "keywords": [
+    "node",
+    "ssh",
+    "ftp",
+    "website",
+    "backups"
+  ],
+
+  "author": "",
+  "maintainers": [
+    "Shawn Turple <shawn@turple.ca> (https://github.com/sturple)"
+
+  ],
+  "contributors": [
+    "sturple (https://github.com/sturple)"
+  ],
+  "bugs": {
+    "url": "https://github.com/sturple/nodejs-sitebackups/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sturple/nodejs-sitebackups.git"
+  },
+  "engines": {
+    "node": ">=0.8"
+  },
+
+  "dependencies": {
+    "ftpdump":">=0.0.1",
+    "rsyncwrapper": ">=0.4.3",
+    "figlet" : "^1.1.1",
+    "slug" : ">=0.9.1",
+    "ssh-exec" : ">=1.3.0",
+    "yaml-fm" :"^0.1.1",
+    "read-file-relative" : "^1.2.0",
+    "stdio" : "^0.2.7",
+    "npmlog" : "2.0.0",
+    "taskgroup" : "4.3.1"
+    
+
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test/test.js"
+  }
+ 
+}

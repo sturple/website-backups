@@ -1,0 +1,19 @@
+fields : 
+    sshHost: sshHost
+    sshUser: sshUser
+    sshPass: sshPass
+    sshKey: sshKey
+    sshPort: sshPort
+    sshRemote: sshRemote
+    ftpHost: ftpHost
+    ftpUser: ftpUser
+    ftpPass: ftpPass
+    ftpRemote: ftpRemote
+logPath: /to/backups/logs/folder
+pemPath: /to/pem/folder/
+backupRoot: /to/backup/folder/
+archiveRoot: /to/archive/folder
+databaseServerRoot: '~/mysql/'
+fileRoot: /to/configuration/documents/
+logger:
+    level: info
